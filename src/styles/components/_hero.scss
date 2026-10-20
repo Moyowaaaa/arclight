@@ -1,0 +1,171 @@
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 58.1875rem;
+  overflow: hidden;
+  color: #ffffff;
+
+  &__media {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+
+  &__bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  &__scrim {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  &__fade {
+    position: absolute;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+
+    &--top {
+      top: 0;
+      height: 8.6875rem;
+      background: linear-gradient(
+        to bottom,
+        rgba(10, 10, 10, 0.6) 0%,
+        rgba(10, 10, 10, 0.6) 7%,
+        rgba(0, 0, 0, 0) 100%
+      );
+    }
+
+    &--bottom {
+      bottom: 0;
+      height: 28.5rem;
+      background: linear-gradient(
+        to top,
+        rgba(10, 10, 10, 0.6) 0%,
+        rgba(10, 10, 10, 0.6) 44%,
+        rgba(0, 0, 0, 0) 100%
+      );
+    }
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6875rem;
+    width: calc(100% - 2.5rem);
+    max-width: 80rem;
+    margin: auto auto 5.5rem;
+    text-align: center;
+  }
+
+  &__title {
+    max-width: 52.6875rem;
+    font-family: "aeonik-medium", sans-serif;
+    font-size: 4.6875rem;
+    font-weight: 500;
+    line-height: 4.75rem;
+    letter-spacing: -0.0703125rem;
+    color: #ffffff;
+  }
+
+  &__text {
+    max-width: 44rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.0125rem;
+    color: #c8c8c8;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6875rem;
+  }
+}
+
+@include media("<=1023px") {
+  .hero {
+    min-height: 46rem;
+
+    &__title {
+      font-size: 2.75rem;
+      line-height: 1.08;
+      letter-spacing: -0.04rem;
+    }
+
+    &__text {
+      font-size: 1rem;
+      letter-spacing: -0.01rem;
+    }
+
+    &__content {
+      margin-bottom: 3.5rem;
+    }
+
+    &__fade--bottom {
+      height: 18rem;
+    }
+  }
+
+  .navbar__links {
+    display: none;
+  }
+}
+
+@include media("<=phone") {
+  .hero {
+    min-height: 40rem;
+
+    &__title {
+      font-size: 2.125rem;
+      letter-spacing: -0.03rem;
+    }
+
+    &__actions {
+      flex-wrap: wrap;
+    }
+
+    &__content {
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  .navbar {
+    top: 1.25rem;
+
+    &__logo img {
+      width: 8.75rem;
+    }
+
+    &__end {
+      gap: 0.75rem;
+    }
+
+    &__end-row {
+      gap: 0.75rem;
+    }
+
+    &__phone {
+      font-size: 0.875rem;
+    }
+  }
+
+  .btn {
+    height: 2.5rem;
+    padding: 0.5rem 0.875rem;
+    font-size: 0.875rem;
+  }
+}

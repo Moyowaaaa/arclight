@@ -1,0 +1,17 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="61.5" height="41" viewBox="0 0 61.5 41" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Frame 427321657">
+<g id="Ellipse 1">
+<use xlink:href="#stroke0_0_6" fill="#D9D9D9"/>
+<use xlink:href="#stroke0_0_6" fill="white"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#stroke1_0_6" fill="#D9D9D9"/>
+<use xlink:href="#stroke1_0_6" fill="white"/>
+</g>
+<path id="Line 1" d="M10.25 24.6001C10.25 24.6001 20.2058 34.8501 30.75 34.8501C41.2942 34.8501 51.25 24.6001 51.25 24.6001" stroke-width="5.38857" stroke="white"/>
+</g>
+<defs>
+<path id="stroke0_0_6" d="M26.65 8.2C26.65 12.7287 22.9787 16.4 18.45 16.4C13.9212 16.4 10.25 12.7287 10.25 8.2C10.25 3.67127 13.9212 0 18.45 0C22.9787 0 26.65 3.67127 26.65 8.2Z"/>
+<path id="stroke1_0_6" d="M51.249 8.2C51.249 12.7287 47.5778 16.4 43.049 16.4C38.5203 16.4 34.849 12.7287 34.849 8.2C34.849 3.67127 38.5203 0 43.049 0C47.5778 0 51.249 3.67127 51.249 8.2Z"/>
+</defs>
+</svg>

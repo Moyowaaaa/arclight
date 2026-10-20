@@ -1,0 +1,105 @@
+.faq {
+  background: #f7faff;
+  padding: 5rem 0;
+
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3rem;
+    width: calc(100% - 2.5rem);
+    max-width: 80rem;
+    margin-inline: auto;
+  }
+
+  &__title {
+    flex: 0 0 22.8125rem;
+    max-width: 22.8125rem;
+    font-family: "aeonik-medium", sans-serif;
+    font-size: 2.8125rem;
+    font-weight: 500;
+    line-height: 3.25rem;
+    letter-spacing: -0.0421875rem;
+    color: #000d3b;
+  }
+
+  &__list {
+    width: 49.1875rem;
+    max-width: 100%;
+  }
+
+  &__item {
+    padding: 1.5rem 1rem;
+
+    &.is-open {
+      display: flex;
+      flex-direction: column;
+      gap: 1.125rem;
+      background: #fff;
+    }
+  }
+
+  &__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    font-family: "aeonik-medium", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    letter-spacing: -0.0225rem;
+    color: #000d3b;
+    text-align: left;
+    cursor: pointer;
+
+    img {
+      flex: 0 0 1.5rem;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+
+  &__answer {
+    display: none;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.01125rem;
+    color: #747781;
+  }
+
+  &__item.is-open &__answer {
+    display: block;
+  }
+}
+
+@include media("<=1023px") {
+  .faq {
+    padding: 3.5rem 0;
+
+    &__container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    &__title {
+      flex-basis: auto;
+      font-size: 2rem;
+      line-height: 1.16;
+      letter-spacing: -0.03rem;
+    }
+
+    &__list {
+      width: 100%;
+    }
+
+    &__toggle {
+      font-size: 1.25rem;
+      line-height: 1.3;
+    }
+  }
+}

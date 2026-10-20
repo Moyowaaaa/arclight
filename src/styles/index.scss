@@ -1,0 +1,24 @@
+@import "utils/breakpoints";
+@import "utils/mixins";
+@import "utils/functions";
+
+@import "core/variables";
+@import "core/reset";
+@import "core/globals";
+@import "core/fonts";
+
+@import "shared/links";
+@import "shared/layout";
+@import "shared/sections";
+@import "shared/fonts";
+
+@import "components/button";
+@import "components/navbar.scss";
+@import "components/hero";
+@import "components/results";
+@import "components/smile";
+@import "components/stories";
+@import "components/compare";
+@import "components/banner";
+@import "components/faq";
+@import "components/footer";
