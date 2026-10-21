@@ -1,0 +1,1726 @@
+{
+ "url": "src/index.html",
+ "at": "2026-10-21T16:36:03.020Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.81,
+    1,
+    0.73,
+    1,
+    1,
+    0.72,
+    0.9,
+    1,
+    0.98,
+    0.85,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 17465,
+     "screens": 19.4,
+     "words": 389,
+     "img": 27,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 8,
+     "horizontalOverflow": 2408,
+     "overflowCulprits": [
+      "img.hero__bg (+1448px)",
+      "img.results__photo (+2408px)",
+      "img.stories__photo (+2408px)"
+     ],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "titleBG.webp",
+      "maria.webp",
+      "smile-dinner.webp",
+      "story-side.webp",
+      "story-denise.webp",
+      "story-side.webp",
+      "arch-upper.webp",
+      "arch-lower.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": null,
+    "h1": {
+     "text": "Stop hiding your smile. Get it back for good!",
+     "words": 9,
+     "lines": 2,
+     "size": 32,
+     "font": "Times New Roman"
+    },
+    "headings": [
+     {
+      "text": "Stop hiding your smile. Get it back for good!",
+      "words": 9,
+      "chars": 45,
+      "lines": 2,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Times New Roman",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.99,
+      "top": 2079,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 9,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Times New Roman",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      24,
+      32
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Times New Roman",
+      "size": 16,
+      "leading": 1.2,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 21
+     },
+     "measureChars": 178,
+     "max": {
+      "size": 32,
+      "vw": 2.2,
+      "font": "Times New Roman",
+      "text": "Stop hiding your smile. Get it back for "
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#000000",
+       "share": 0.87
+      },
+      {
+       "color": "#0000ee",
+       "share": 0.13
+      }
+     ],
+     "button": {
+      "bg": "#f0f0f0",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.94
+      },
+      "fg": "#000000"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 0,
+     "radius": 0,
+     "height": 33,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.78
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 184,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 17465,
+    "margins": {
+     "left": 8,
+     "right": 56
+    },
+    "sections": [
+     {
+      "sel": "nav.navbar",
+      "tag": "nav",
+      "top": 8,
+      "height": 184,
+      "words": 7,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 1237,
+      "textLeft": 33,
+      "textRight": 1260,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.hero__media",
+      "tag": "div",
+      "top": 192,
+      "height": 1866,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.hero__content",
+      "tag": "div",
+      "top": 2079,
+      "height": 147,
+      "words": 41,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Stop hiding your smile.",
+       "size": 32,
+       "tag": "h1"
+      },
+      "left": 8,
+      "right": 525,
+      "textLeft": 8,
+      "textRight": 525,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#results.results",
+      "tag": "section",
+      "top": 2247,
+      "height": 2349,
+      "words": 16,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "This isn’t a promise.",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 1094,
+      "textLeft": 8,
+      "textRight": 1094,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.smile",
+      "tag": "section",
+      "top": 4616,
+      "height": 871,
+      "words": 41,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "When Did You Last Feel Good About Your Smile?",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 56,
+      "textLeft": 8,
+      "textRight": 414,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#stories.stories",
+      "tag": "section",
+      "top": 5506,
+      "height": 5337,
+      "words": 45,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Don't Just Take Our Word For It.",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 56,
+      "textLeft": 8,
+      "textRight": 648,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.compare__arch.compare__arch--upper",
+      "tag": "div",
+      "top": 10843,
+      "height": 772,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 56,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.compare__arch.compare__arch--lower",
+      "tag": "div",
+      "top": 11615,
+      "height": 772,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 56,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.compare__container",
+      "tag": "div",
+      "top": 12407,
+      "height": 398,
+      "words": 39,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Not another temporary fix.",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 1079,
+      "textLeft": 8,
+      "textRight": 1079,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.banner",
+      "tag": "section",
+      "top": 12821,
+      "height": 891,
+      "words": 33,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 56,
+      "textLeft": 8,
+      "textRight": 543,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.banner",
+      "tag": "section",
+      "top": 13712,
+      "height": 1473,
+      "words": 38,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 584,
+      "textLeft": 8,
+      "textRight": 584,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq",
+      "tag": "section",
+      "top": 15205,
+      "height": 247,
+      "words": 83,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Frequently Asked Questions",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 1010,
+      "textLeft": 8,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.footer__photo",
+      "tag": "div",
+      "top": 15452,
+      "height": 1604,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.footer__panel",
+      "tag": "div",
+      "top": 17056,
+      "height": 393,
+      "words": 47,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 1055,
+      "textLeft": 8,
+      "textRight": 1055,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Stop hiding your smile. Get it back for good!",
+      "size": 32,
+      "top": 2079,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Stop hiding your smile.",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Get it back for good!",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Arclight is a full-arch implant clinic built for o",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Book a free consultation",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "This isn’t a promise.",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "It’s what happens here every day",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Real patients. Real results.",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Maria, 20",
+      "side": "left",
+      "px": 8
+     }
+    ],
+    "edges": [
+     {
+      "x": 8,
+      "n": 18
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.06,
+    "voidBox": {
+     "x": 180,
+     "y": 120,
+     "w": 1260,
+     "h": 60
+    }
+   },
+   "app": null,
+   "consoleErrors": [
+    "TypeError: Failed to resolve module specifier \"@studio-freight/lenis\". Relative references must start with either \"/\", \"./\", or \"../\"."
+   ]
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.84,
+    1,
+    0.77,
+    1,
+    0.82,
+    0.9,
+    1,
+    1,
+    0.94,
+    1,
+    0.94,
+    1
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 17573,
+     "screens": 17.2,
+     "words": 389,
+     "img": 27,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 8,
+     "horizontalOverflow": 3080,
+     "overflowCulprits": [
+      "img.hero__bg (+2120px)",
+      "img.results__photo (+3080px)",
+      "img (+616px)"
+     ],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "titleBG.webp",
+      "maria.webp",
+      "smile-dinner.webp",
+      "story-side.webp",
+      "story-denise.webp",
+      "story-side.webp",
+      "arch-upper.webp",
+      "arch-lower.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": null,
+    "h1": {
+     "text": "Stop hiding your smile. Get it back for good!",
+     "words": 9,
+     "lines": 2,
+     "size": 32,
+     "font": "Times New Roman"
+    },
+    "headings": [
+     {
+      "text": "Stop hiding your smile. Get it back for good!",
+      "words": 9,
+      "chars": 45,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Times New Roman",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 2079,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 9,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Times New Roman",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      24,
+      32
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Times New Roman",
+      "size": 16,
+      "leading": 1.2,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 21
+     },
+     "measureChars": 94,
+     "max": {
+      "size": 32,
+      "vw": 4.2,
+      "font": "Times New Roman",
+      "text": "Stop hiding your smile. Get it back for "
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#000000",
+       "share": 0.87
+      },
+      {
+       "color": "#0000ee",
+       "share": 0.13
+      }
+     ],
+     "button": {
+      "bg": "#f0f0f0",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.94
+      },
+      "fg": "#000000"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 0,
+     "radius": 0,
+     "height": 33,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.8
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 184,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 17573,
+    "margins": {
+     "left": 8,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "nav.navbar",
+      "tag": "nav",
+      "top": 8,
+      "height": 184,
+      "words": 7,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 565,
+      "textLeft": 33,
+      "textRight": 588,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.hero__media",
+      "tag": "div",
+      "top": 192,
+      "height": 1866,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.hero__content",
+      "tag": "div",
+      "top": 2079,
+      "height": 165,
+      "words": 41,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Stop hiding your smile.",
+       "size": 32,
+       "tag": "h1"
+      },
+      "left": 8,
+      "right": 31,
+      "textLeft": 8,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#results.results",
+      "tag": "section",
+      "top": 2265,
+      "height": 2349,
+      "words": 16,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "This isn’t a promise.",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 422,
+      "textLeft": 8,
+      "textRight": 422,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.smile",
+      "tag": "section",
+      "top": 4634,
+      "height": 889,
+      "words": 41,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "When Did You Last Feel Good About Your Smile?",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 38,
+      "textLeft": 8,
+      "textRight": 38,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#stories.stories",
+      "tag": "section",
+      "top": 5542,
+      "height": 5355,
+      "words": 45,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Don't Just Take Our Word For It.",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 19,
+      "textLeft": 8,
+      "textRight": 19,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.compare__arch.compare__arch--upper",
+      "tag": "div",
+      "top": 10897,
+      "height": 772,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.compare__arch.compare__arch--lower",
+      "tag": "div",
+      "top": 11669,
+      "height": 772,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.compare__container",
+      "tag": "div",
+      "top": 12461,
+      "height": 398,
+      "words": 39,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Not another temporary fix.",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 407,
+      "textLeft": 8,
+      "textRight": 407,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.banner",
+      "tag": "section",
+      "top": 12875,
+      "height": 909,
+      "words": 33,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 38,
+      "textLeft": 8,
+      "textRight": 38,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.banner",
+      "tag": "section",
+      "top": 13784,
+      "height": 1491,
+      "words": 38,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 42,
+      "textLeft": 8,
+      "textRight": 42,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq",
+      "tag": "section",
+      "top": 15295,
+      "height": 265,
+      "words": 83,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Frequently Asked Questions",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 338,
+      "textLeft": 8,
+      "textRight": 9,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.footer__photo",
+      "tag": "div",
+      "top": 15560,
+      "height": 1604,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.footer__panel",
+      "tag": "div",
+      "top": 17164,
+      "height": 393,
+      "words": 47,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 383,
+      "textLeft": 8,
+      "textRight": 383,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Stop hiding your smile. Get it back for good!",
+      "size": 32,
+      "top": 2079,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Stop hiding your smile.",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Get it back for good!",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Arclight is a full-arch implant clinic built for o",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Book a free consultation",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "This isn’t a promise.",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "It’s what happens here every day",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Real patients. Real results.",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Maria, 20",
+      "side": "left",
+      "px": 8
+     }
+    ],
+    "edges": [
+     {
+      "x": 8,
+      "n": 18
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": [
+    "TypeError: Failed to resolve module specifier \"@studio-freight/lenis\". Relative references must start with either \"/\", \"./\", or \"../\"."
+   ]
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.83,
+    0.89,
+    0.89,
+    0.91,
+    0.9,
+    0.79,
+    0.92,
+    0.91,
+    0.91,
+    0.97,
+    0.9,
+    0.82
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1560,
+     "h": 3376
+    },
+    "page": {
+     "height": 17831,
+     "screens": 5.3,
+     "words": 389,
+     "img": 27,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 8,
+     "horizontalOverflow": 2288,
+     "overflowCulprits": [
+      "img.hero__bg (+1328px)",
+      "img.results__photo (+2288px)",
+      "img.stories__photo (+2288px)"
+     ],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "titleBG.webp",
+      "maria.webp",
+      "smile-dinner.webp",
+      "story-side.webp",
+      "story-denise.webp",
+      "story-side.webp",
+      "arch-upper.webp",
+      "arch-lower.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Stop hiding your smile. Get it back for good!",
+     "words": 9,
+     "chars": 45,
+     "lines": 2,
+     "size": 32,
+     "vw": 2.1,
+     "font": "Times New Roman",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.24,
+     "top": 2079,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Stop hiding your smile. Get it back for good!",
+     "words": 9,
+     "lines": 2,
+     "size": 32,
+     "font": "Times New Roman"
+    },
+    "headings": [
+     {
+      "text": "Stop hiding your smile. Get it back for good!",
+      "words": 9,
+      "chars": 45,
+      "lines": 2,
+      "size": 32,
+      "vw": 2.1,
+      "font": "Times New Roman",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 2079,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Times New Roman",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      16,
+      24,
+      32
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Times New Roman",
+      "size": 16,
+      "leading": 1.2,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 21
+     },
+     "measureChars": 47,
+     "max": {
+      "size": 32,
+      "vw": 2.1,
+      "font": "Times New Roman",
+      "text": "Stop hiding your smile. Get it back for "
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#000000",
+       "share": 0.87
+      },
+      {
+       "color": "#0000ee",
+       "share": 0.13
+      }
+     ],
+     "button": {
+      "bg": "#f0f0f0",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.94
+      },
+      "fg": "#000000"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 0,
+     "radius": 0,
+     "height": 33,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.55
+     },
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 184,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 1560,
+     "h": 3376
+    },
+    "pageH": 17831,
+    "margins": {
+     "left": 8,
+     "right": 176
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Stop hiding your smile. Get it back for good!",
+      "size": 32,
+      "top": 2079,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Stop hiding your smile.",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Get it back for good!",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Arclight is a full-arch implant clinic built for o",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Book a free consultation",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "This isn’t a promise.",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "It’s what happens here every day",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Real patients. Real results.",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Maria, 20",
+      "side": "left",
+      "px": 8
+     }
+    ],
+    "edges": [
+     {
+      "x": 8,
+      "n": 18
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": [
+    "TypeError: Failed to resolve module specifier \"@studio-freight/lenis\". Relative references must start with either \"/\", \"./\", or \"../\"."
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "default-link",
+   "width": 1440,
+   "message": "Browser-default blue/purple link colour is showing.",
+   "fix": "Style every link: inherit the text colour and mark it with weight, underline offset, or the accent.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 1440,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 178 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch).",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "overflow",
+   "width": 1440,
+   "message": "Page scrolls sideways by 2408px at 1440px. Widest offenders: img.hero__bg (+1448px), img.results__photo (+2408px), img.stories__photo (+2408px).",
+   "fix": "Constrain the element that is wider than the viewport (max-width: 100%, or overflow: clip on its section)."
+  },
+  {
+   "level": "WARN",
+   "id": "no-hero",
+   "width": 1440,
+   "message": "No headline found in the first viewport.",
+   "fix": "The first screen needs a clear focal statement or image.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 8px on the left, 56px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "lopsided",
+   "width": 1440,
+   "message": "2 sections keep all their content on one side and leave 75% of the width empty: \"Not another temporary fix.\" (right 1079px empty); \"Frequently Asked Questions\" (right 1010px empty)",
+   "fix": "Use the whole width the page has set up: put the section's picture, its second column, its list or its figure in the empty half, or set the text larger across the grid. Empty space must be placed, with something on each side of it.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "no-title",
+   "width": 1440,
+   "message": "The h1 (\"Stop hiding your smile. Get it back for good!\") is not on the first screen (it starts 2079px down).",
+   "fix": "The title belongs on the first screen, where a visitor decides whether to stay.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 1440,
+   "message": "8 text block(s) sit within 16px of the screen edge: \"Stop hiding your smile.\" (8px from the left); \"Get it back for good!\" (8px from the left); \"Arclight is a full-arch implan\" (8px from the left); \"Book a free consultation\" (8px from the left)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "overflow",
+   "width": 768,
+   "message": "Page scrolls sideways by 3080px at 768px. Widest offenders: img.hero__bg (+2120px), img.results__photo (+3080px), img (+616px).",
+   "fix": "Constrain the element that is wider than the viewport (max-width: 100%, or overflow: clip on its section)."
+  },
+  {
+   "level": "FAIL",
+   "id": "overflow",
+   "width": 390,
+   "message": "Page scrolls sideways by 2288px at 390px. Widest offenders: img.hero__bg (+1328px), img.results__photo (+2288px), img.stories__photo (+2288px).",
+   "fix": "Constrain the element that is wider than the viewport (max-width: 100%, or overflow: clip on its section)."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 390,
+   "message": "The page sits off-centre: its content comes to 8px from the left edge but only to 176px from the right, at 390px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\HP\\Desktop\\web\\arclight\\.taste-skill\\before\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\HP\\Desktop\\web\\arclight\\.taste-skill\\before\\desktop-page-01.jpg",
+    "C:\\Users\\HP\\Desktop\\web\\arclight\\.taste-skill\\before\\desktop-page-02.jpg",
+    "C:\\Users\\HP\\Desktop\\web\\arclight\\.taste-skill\\before\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\HP\\Desktop\\web\\arclight\\.taste-skill\\before\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\HP\\Desktop\\web\\arclight\\.taste-skill\\before\\tablet-page-01.jpg",
+    "C:\\Users\\HP\\Desktop\\web\\arclight\\.taste-skill\\before\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\HP\\Desktop\\web\\arclight\\.taste-skill\\before\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\HP\\Desktop\\web\\arclight\\.taste-skill\\before\\mobile-page-01.jpg",
+    "C:\\Users\\HP\\Desktop\\web\\arclight\\.taste-skill\\before\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

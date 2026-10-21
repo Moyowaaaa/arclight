@@ -111,6 +111,18 @@
 
     & + .banner {
       z-index: 1;
+      pointer-events: none;
+
+      .banner__bg,
+      .banner__shade {
+        transform: translate3d(0, 100%, 0);
+      }
+
+      .banner__content {
+        pointer-events: auto;
+        opacity: 0;
+        transform: translateY(10rem);
+      }
     }
   }
 
