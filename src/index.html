@@ -16,57 +16,118 @@
   </head>
   <body>
     <div class="page" data-scroll-container>
-      <section class="hero">
-        <div class="hero__media" aria-hidden="true">
-          <img class="hero__bg" src="./assets/images/titleBG.webp" alt="" />
-          <div class="hero__scrim"></div>
-          <div class="hero__fade hero__fade--top"></div>
-          <div class="hero__fade hero__fade--bottom"></div>
-        </div>
-
-        <nav class="navbar">
-          <div class="navbar__container">
-            <div class="navbar__start">
-              <a class="navbar__logo" href="/" aria-label="Arclight">
-                <img
-                  src="./assets/images/logo.svg"
-                  alt="Arclight"
-                  width="195"
-                  height="41"
-                />
-              </a>
-              <ul class="navbar__links">
-                <li><a href="#procedure">Procedure</a></li>
-                <li><a href="#insurance">Insurance</a></li>
-                <li>
-                  <button class="navbar__menu" type="button">
-                    Results
-                    <img
-                      src="./assets/images/chevron-down.svg"
-                      alt=""
-                      width="18"
-                      height="18"
-                    />
-                  </button>
-                </li>
-                <li><a href="#pricing">Pricing</a></li>
-              </ul>
-            </div>
-
-            <div class="navbar__end">
-              <div class="navbar__end-row">
-                <button class="navbar__lang" type="button">
-                  <img
-                    src="./assets/images/globe.png"
-                    alt=""
-                    width="17"
-                    height="17"
+      <nav class="navbar">
+        <div class="navbar__container">
+          <div class="navbar__start">
+            <a class="navbar__logo" href="/" aria-label="Arclight">
+              <svg
+                width="195"
+                height="41"
+                viewBox="0 0 195 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <g class="logo-word" fill="white">
+                  <path
+                    class="logo-letter"
+                    d="M62.9363 33L72.9671 6.20026H78.2505L88.2429 33H83.4955L81.007 26.3766H70.0191L67.5306 33H62.9363ZM71.2442 22.6247H79.7819L75.4939 10.9476L71.2442 22.6247Z"
                   />
-                  EN
+                  <path
+                    class="logo-letter"
+                    d="M90.1461 33V13.3979H93.7832L94.2044 16.3459C95.1998 14.7379 96.7312 13.3979 100.024 13.3979H100.981V17.2647H99.1815C95.4678 17.2647 94.3192 20.1361 94.3192 23.1607V33H90.1461Z"
+                  />
+                  <path
+                    class="logo-letter"
+                    d="M111.39 33.2297C105.38 33.2297 101.666 29.3629 101.666 23.2372C101.666 17.1882 105.571 13.1682 111.505 13.1682C116.559 13.1682 119.698 15.963 120.502 20.4041H116.176C115.64 18.107 113.994 16.6904 111.429 16.6904C108.098 16.6904 105.916 19.3704 105.916 23.2372C105.916 27.0658 108.059 29.7075 111.429 29.7075C113.994 29.7075 115.64 28.2526 116.176 25.9555H120.502C119.737 30.4349 116.406 33.2297 111.39 33.2297Z"
+                  />
+                  <path
+                    class="logo-letter"
+                    d="M123.208 33V6.20026H127.381V33H123.208Z"
+                  />
+                  <path
+                    class="logo-letter"
+                    d="M131.083 33V13.3979H135.256V33H131.083ZM133.15 10.5265C131.81 10.5265 130.738 9.4928 130.738 8.11453C130.738 6.73626 131.81 5.74084 133.15 5.74084C134.529 5.74084 135.562 6.73626 135.562 8.11453C135.562 9.4928 134.529 10.5265 133.15 10.5265Z"
+                  />
+                  <path
+                    class="logo-letter"
+                    d="M147.841 40.8868C142.557 40.8868 138.997 38.4365 138.614 34.1103H142.825C143.361 36.2925 145.237 37.5177 148.147 37.5177C151.784 37.5177 153.775 35.7565 153.775 32.0429V29.9755C152.473 31.6983 150.444 33.0766 147.458 33.0766C142.021 33.0766 138.116 29.3246 138.116 23.1607C138.116 17.2647 142.06 13.1682 147.381 13.1682C150.406 13.1682 152.55 14.3933 153.813 16.2693L154.273 13.3979H157.871V32.196C157.871 37.7091 154.617 40.8868 147.841 40.8868ZM148.07 29.5926C151.478 29.5926 153.775 26.9892 153.775 23.199C153.775 19.3321 151.478 16.6904 148.07 16.6904C144.625 16.6904 142.366 19.2938 142.366 23.1607C142.366 26.9892 144.625 29.5926 148.07 29.5926Z"
+                  />
+                  <path
+                    class="logo-letter"
+                    d="M161.64 33V6.20026H165.813V15.8865C166.961 14.4316 168.875 13.1682 171.977 13.1682C176.341 13.1682 179.863 15.5419 179.863 22.0887V33H175.729V22.4332C175.729 18.7196 174.121 16.7287 171.058 16.7287C167.574 16.7287 165.813 18.9493 165.813 22.7012V33H161.64Z"
+                  />
+                  <path
+                    class="logo-letter"
+                    d="M190.125 33C186.373 33 184.803 31.2389 184.803 27.6783V17.035H181.396V13.3979H184.803V7.9231H188.938V13.3979H193.992V17.035H188.938V27.2572C188.938 28.7886 189.512 29.3629 191.082 29.3629H193.992V33H190.125Z"
+                  />
+                </g>
+                <g clip-path="url(#clip0_4_42)">
+                  <g class="logo-eyes">
+                    <g class="logo-eye logo-eye--left">
+                      <use href="#stroke0_4_42" fill="#D9D9D9" />
+                      <use href="#stroke0_4_42" fill="white" />
+                    </g>
+                    <g class="logo-eye logo-eye--right">
+                      <use href="#stroke1_4_42" fill="#D9D9D9" />
+                      <use href="#stroke1_4_42" fill="white" />
+                    </g>
+                  </g>
+                  <path
+                    d="M9.35861 24.5027C9.35861 24.5027 18.4486 33.8613 28.0759 33.8613C37.7031 33.8613 46.7932 24.5027 46.7932 24.5027"
+                    fill="none"
+                    stroke="white"
+                    stroke-width="4.91997"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_4_42">
+                    <rect x="-2" y="-2" width="60" height="45" fill="white" />
+                  </clipPath>
+                  <path
+                    id="stroke0_4_42"
+                    d="M24.3324 9.5289C24.3324 13.6638 20.9804 17.0158 16.8455 17.0158C12.7106 17.0158 9.35861 13.6638 9.35861 9.5289C9.35861 5.394 12.7106 2.04199 16.8455 2.04199C20.9804 2.04199 24.3324 5.394 24.3324 9.5289Z"
+                  />
+                  <path
+                    id="stroke1_4_42"
+                    d="M46.7923 9.5289C46.7923 13.6638 43.4403 17.0158 39.3054 17.0158C35.1705 17.0158 31.8185 13.6638 31.8185 9.5289C31.8185 5.394 35.1705 2.04199 39.3054 2.04199C43.4403 2.04199 46.7923 5.394 46.7923 9.5289Z"
+                  />
+                </defs>
+              </svg>
+            </a>
+
+            <ul class="navbar__links">
+              <li><a href="#procedure">Procedure</a></li>
+              <li><a href="#insurance">Insurance</a></li>
+              <li>
+                <button class="navbar__menu" type="button">
+                  Results
+                  <img
+                    src="./assets/images/chevron-down.svg"
+                    alt=""
+                    width="18"
+                    height="18"
+                  />
                 </button>
-                <a class="btn btn--light" href="#book">Book consulation</a>
-              </div>
-              <a class="navbar__phone" href="tel:+97141231234">
+              </li>
+              <li><a href="#pricing">Pricing</a></li>
+            </ul>
+          </div>
+
+          <div class="navbar__end">
+            <div class="navbar__end-row">
+              <button class="navbar__lang" type="button">
+                <img
+                  src="./assets/images/globe.png"
+                  alt=""
+                  width="17"
+                  height="17"
+                />
+                EN
+              </button>
+              <a class="btn btn--light" href="#book">Book consulation</a>
+            </div>
+            <!-- <a class="navbar__phone" href="tel:+97141231234">
                 <img
                   src="./assets/images/phone.png"
                   alt=""
@@ -74,10 +135,18 @@
                   height="17"
                 />
                 +971 4 123 1234
-              </a>
-            </div>
+              </a> -->
           </div>
-        </nav>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="hero__media" aria-hidden="true">
+          <img class="hero__bg" src="./assets/images/titleBG.webp" alt="" />
+          <div class="hero__scrim"></div>
+          <div class="hero__fade hero__fade--top"></div>
+          <div class="hero__fade hero__fade--bottom"></div>
+        </div>
 
         <div class="hero__content">
           <h1 class="hero__title">
@@ -273,6 +342,7 @@
         </div>
       </section>
 
+      <div class="banner-stack">
       <section class="banner">
         <img
           class="banner__bg"
@@ -316,6 +386,7 @@
           <a class="btn btn--light" href="#book">Book a free consultation</a>
         </div>
       </section>
+      </div>
 
       <section class="faq" id="faq">
         <div class="faq__container">
@@ -392,12 +463,86 @@
             <div class="footer__top">
               <div class="footer__brand">
                 <a class="footer__logo" href="/" aria-label="Arclight">
-                  <img
-                    src="./assets/images/logo.svg"
-                    alt="Arclight"
+                  <svg
                     width="195"
                     height="41"
-                  />
+                    viewBox="0 0 195 41"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                  >
+                    <g class="logo-word" fill="white">
+                      <path
+                        class="logo-letter"
+                        d="M62.9363 33L72.9671 6.20026H78.2505L88.2429 33H83.4955L81.007 26.3766H70.0191L67.5306 33H62.9363ZM71.2442 22.6247H79.7819L75.4939 10.9476L71.2442 22.6247Z"
+                      />
+                      <path
+                        class="logo-letter"
+                        d="M90.1461 33V13.3979H93.7832L94.2044 16.3459C95.1998 14.7379 96.7312 13.3979 100.024 13.3979H100.981V17.2647H99.1815C95.4678 17.2647 94.3192 20.1361 94.3192 23.1607V33H90.1461Z"
+                      />
+                      <path
+                        class="logo-letter"
+                        d="M111.39 33.2297C105.38 33.2297 101.666 29.3629 101.666 23.2372C101.666 17.1882 105.571 13.1682 111.505 13.1682C116.559 13.1682 119.698 15.963 120.502 20.4041H116.176C115.64 18.107 113.994 16.6904 111.429 16.6904C108.098 16.6904 105.916 19.3704 105.916 23.2372C105.916 27.0658 108.059 29.7075 111.429 29.7075C113.994 29.7075 115.64 28.2526 116.176 25.9555H120.502C119.737 30.4349 116.406 33.2297 111.39 33.2297Z"
+                      />
+                      <path
+                        class="logo-letter"
+                        d="M123.208 33V6.20026H127.381V33H123.208Z"
+                      />
+                      <path
+                        class="logo-letter"
+                        d="M131.083 33V13.3979H135.256V33H131.083ZM133.15 10.5265C131.81 10.5265 130.738 9.4928 130.738 8.11453C130.738 6.73626 131.81 5.74084 133.15 5.74084C134.529 5.74084 135.562 6.73626 135.562 8.11453C135.562 9.4928 134.529 10.5265 133.15 10.5265Z"
+                      />
+                      <path
+                        class="logo-letter"
+                        d="M147.841 40.8868C142.557 40.8868 138.997 38.4365 138.614 34.1103H142.825C143.361 36.2925 145.237 37.5177 148.147 37.5177C151.784 37.5177 153.775 35.7565 153.775 32.0429V29.9755C152.473 31.6983 150.444 33.0766 147.458 33.0766C142.021 33.0766 138.116 29.3246 138.116 23.1607C138.116 17.2647 142.06 13.1682 147.381 13.1682C150.406 13.1682 152.55 14.3933 153.813 16.2693L154.273 13.3979H157.871V32.196C157.871 37.7091 154.617 40.8868 147.841 40.8868ZM148.07 29.5926C151.478 29.5926 153.775 26.9892 153.775 23.199C153.775 19.3321 151.478 16.6904 148.07 16.6904C144.625 16.6904 142.366 19.2938 142.366 23.1607C142.366 26.9892 144.625 29.5926 148.07 29.5926Z"
+                      />
+                      <path
+                        class="logo-letter"
+                        d="M161.64 33V6.20026H165.813V15.8865C166.961 14.4316 168.875 13.1682 171.977 13.1682C176.341 13.1682 179.863 15.5419 179.863 22.0887V33H175.729V22.4332C175.729 18.7196 174.121 16.7287 171.058 16.7287C167.574 16.7287 165.813 18.9493 165.813 22.7012V33H161.64Z"
+                      />
+                      <path
+                        class="logo-letter"
+                        d="M190.125 33C186.373 33 184.803 31.2389 184.803 27.6783V17.035H181.396V13.3979H184.803V7.9231H188.938V13.3979H193.992V17.035H188.938V27.2572C188.938 28.7886 189.512 29.3629 191.082 29.3629H193.992V33H190.125Z"
+                      />
+                    </g>
+                    <g clip-path="url(#footer-logo-clip)">
+                      <g class="logo-eyes">
+                        <g class="logo-eye logo-eye--left">
+                          <use href="#footer-eye-left" fill="#D9D9D9" />
+                          <use href="#footer-eye-left" fill="white" />
+                        </g>
+                        <g class="logo-eye logo-eye--right">
+                          <use href="#footer-eye-right" fill="#D9D9D9" />
+                          <use href="#footer-eye-right" fill="white" />
+                        </g>
+                      </g>
+                      <path
+                        d="M9.35861 24.5027C9.35861 24.5027 18.4486 33.8613 28.0759 33.8613C37.7031 33.8613 46.7932 24.5027 46.7932 24.5027"
+                        fill="none"
+                        stroke="white"
+                        stroke-width="4.91997"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="footer-logo-clip">
+                        <rect
+                          x="-2"
+                          y="-2"
+                          width="60"
+                          height="45"
+                          fill="white"
+                        />
+                      </clipPath>
+                      <path
+                        id="footer-eye-left"
+                        d="M24.3324 9.5289C24.3324 13.6638 20.9804 17.0158 16.8455 17.0158C12.7106 17.0158 9.35861 13.6638 9.35861 9.5289C9.35861 5.394 12.7106 2.04199 16.8455 2.04199C20.9804 2.04199 24.3324 5.394 24.3324 9.5289Z"
+                      />
+                      <path
+                        id="footer-eye-right"
+                        d="M46.7923 9.5289C46.7923 13.6638 43.4403 17.0158 39.3054 17.0158C35.1705 17.0158 31.8185 13.6638 31.8185 9.5289C31.8185 5.394 35.1705 2.04199 39.3054 2.04199C43.4403 2.04199 46.7923 5.394 46.7923 9.5289Z"
+                      />
+                    </defs>
+                  </svg>
                 </a>
                 <p class="footer__tagline">
                   A New Standard for Full-Arch Implants.

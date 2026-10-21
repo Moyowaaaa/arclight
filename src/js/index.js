@@ -5,6 +5,8 @@ import "splitting/dist/splitting.css";
 import "splitting/dist/splitting-cells.css";
 import Splitting from "splitting";
 import { intersectionObserver } from "./useIntersectionObserver";
+import { initLogoEyes } from "./logoEyes.js";
+
 gsap.registerPlugin(ScrollTrigger);
 
 let lenis;
@@ -25,8 +27,6 @@ requestAnimationFrame(scrollFn);
 
 var viewport = window.innerWidth;
 var mobile = 1023;
-
-
 
 const stories = document.querySelector(".stories");
 
@@ -95,4 +95,101 @@ year.forEach((y) => {
   y.innerHTML = new Date().getFullYear();
 });
 
+initLogoEyes();
 
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+const flickerLogo = (word) => {
+  word.querySelectorAll(".logo-letter").forEach((letter) => {
+    letter.style.animation = "none";
+    letter.getBoundingClientRect();
+    letter.style.animation = `logo-flicker-in-glow ${0.45 + Math.random() * 2.6}s linear both`;
+  });
+};
+
+document.querySelectorAll(".logo-word").forEach((word) => {
+  const letters = word.querySelectorAll(".logo-letter");
+
+  if (reduceMotion) {
+    letters.forEach((letter) => {
+      letter.style.opacity = "1";
+    });
+    return;
+  }
+
+  letters.forEach((letter) => {
+    letter.style.opacity = "0";
+  });
+
+  intersectionObserver(word, { threshold: 0.6 }).then(() => flickerLogo(word));
+});
+
+const bannerStack = document.querySelector(".banner-stack");
+
+if (bannerStack && !reduceMotion) {
+  const [first, second] = bannerStack.querySelectorAll(".banner");
+
+  if (first && second) {
+    bannerStack.classList.add("is-stacked");
+
+    const firstBg = first.querySelector(".banner__bg");
+    const firstCopy = first.querySelector(".banner__content");
+    const secondBg = second.querySelector(".banner__bg");
+    const secondCopy = second.querySelector(".banner__content");
+
+    gsap.set(second, { yPercent: 100 });
+    gsap.set(secondBg, { scale: 1.12 });
+    gsap.set(secondCopy, { y: 48, autoAlpha: 0 });
+
+    gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: bannerStack,
+          start: "top top",
+          end: "+=100%",
+          pin: true,
+          scrub: 0.6,
+          anticipatePin: 1,
+          invalidateOnRefresh: true,
+        },
+      })
+      .to(firstBg, { scale: 1.08, ease: "none" }, 0)
+      .to(firstCopy, { y: -40, autoAlpha: 0, ease: "none" }, 0)
+      .to(second, { yPercent: 0, ease: "none" }, 0)
+      .to(secondBg, { scale: 1, ease: "none" }, 0)
+      .to(secondCopy, { y: 0, autoAlpha: 1, ease: "none" }, 0.2);
+  }
+}
+
+const navbar = document.querySelector(".navbar");
+const footerPanel = document.querySelector(".footer__panel");
+
+if (navbar) {
+  const updateNavbar = (scroll = window.scrollY) => {
+    navbar.classList.toggle("is-scrolled", scroll > 100);
+  };
+
+  updateNavbar();
+  lenis.on("scroll", ({ scroll }) => updateNavbar(scroll));
+}
+
+if (navbar && footerPanel) {
+  const navClearance = () => {
+    const root =
+      parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+    return Math.round(root + navbar.offsetHeight);
+  };
+
+  gsap.to(navbar, {
+    y: () => -navClearance(),
+    autoAlpha: 0,
+    ease: "none",
+    scrollTrigger: {
+      trigger: footerPanel,
+      start: "top bottom",
+      end: "bottom bottom",
+      scrub: 0.6,
+      invalidateOnRefresh: true,
+    },
+  });
+}
