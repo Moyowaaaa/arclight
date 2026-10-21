@@ -1,9 +1,13 @@
 .footer {
+  position: relative;
   color: #fff;
 
   &__photo {
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 0;
     height: 31.5625rem;
+    width: 100%;
     overflow: hidden;
 
     img {
@@ -32,6 +36,8 @@
   }
 
   &__panel {
+    position: relative;
+    z-index: 1;
     background: #1b3fc2;
     padding: 3.6875rem 0;
   }
