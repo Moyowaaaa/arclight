@@ -19,7 +19,7 @@ export function initLogoEyes() {
     gsap.set(eyes, { transformBox: "fill-box", transformOrigin: "50% 50%" });
 
     gsap
-      .timeline({ repeat: -1, repeatDelay: 5, delay: 5 })
+      .timeline({ repeat: -1, repeatDelay: 3, delay: 3 })
       .to(eyes, { scaleY: 0.08, duration: 0.08, ease: "power2.in" })
       .to(eyes, { scaleY: 1, duration: 0.14, ease: "power2.out" });
 

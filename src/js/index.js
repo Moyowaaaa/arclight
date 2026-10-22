@@ -357,6 +357,24 @@ const navbar = document.querySelector(".navbar");
 const footerPanel = document.querySelector(".footer__panel");
 
 if (navbar) {
+  const toggle = navbar.querySelector(".navbar__toggle");
+
+  if (toggle) {
+    const setMenu = (open) => {
+      navbar.classList.toggle("is-open", open);
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    };
+
+    toggle.addEventListener("click", () => {
+      setMenu(!navbar.classList.contains("is-open"));
+    });
+
+    navbar.querySelectorAll(".navbar__links a").forEach((link) => {
+      link.addEventListener("click", () => setMenu(false));
+    });
+  }
+
   const updateNavbar = (scroll = window.scrollY) => {
     navbar.classList.toggle("is-scrolled", scroll > 100);
   };

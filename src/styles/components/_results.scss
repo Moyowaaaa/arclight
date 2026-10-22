@@ -123,51 +123,52 @@
   }
 }
 
-@include media("<=tablet") {
+@include media("<=1023px") {
   .results {
-    padding: 3.5rem 0;
+    padding: 5rem 0;
+
+    &__container {
+      gap: 1.25rem;
+      width: calc(100% - 1.5rem);
+    }
+
+    &__header {
+      gap: 0.75rem;
+    }
 
     &__title {
+      max-width: none;
       font-size: 2rem;
-      line-height: 1.16;
+      line-height: normal;
       letter-spacing: -0.03rem;
     }
 
+    &__subtitle {
+      font-size: 1.125rem;
+      letter-spacing: -0.01125rem;
+    }
+
     &__stage {
-      height: 24rem;
+      height: 36.5625rem;
+    }
+
+    &__photo {
+      height: 100%;
+      object-position: center center;
     }
 
     &__name,
     &__controls {
-      bottom: 1rem;
+      bottom: 1.875rem;
     }
 
     &__name {
-      left: 1rem;
+      left: 1.25rem;
+      font-size: 1.125rem;
     }
 
     &__controls {
-      right: 1rem;
-    }
-  }
-}
-
-@include media("<=phone") {
-  .results {
-    padding: 2.5rem 0;
-
-    &__title {
-      font-size: 1.75rem;
-      letter-spacing: -0.02rem;
-    }
-
-    &__subtitle,
-    &__name {
-      font-size: 1rem;
-    }
-
-    &__stage {
-      height: 20rem;
+      right: 1.25rem;
     }
   }
 }

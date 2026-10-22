@@ -179,12 +179,29 @@
     }
 
     &__brand {
+      flex: none;
       max-width: none;
+      max-height: max-content;
     }
 
     &__links {
       flex-wrap: wrap;
       gap: 2rem 3rem;
+    }
+  }
+}
+
+@include media("<=phone") {
+  .footer {
+    overflow: hidden;
+    width: 100%;
+    &__photo {
+      height: 28rem;
+      transform: scale(2);
+    }
+
+    &__panel {
+      padding: 3.6875rem 0;
     }
   }
 }

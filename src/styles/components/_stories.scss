@@ -159,50 +159,71 @@
 
 @include media("<=1023px") {
   .stories {
-    padding: 3.5rem 0;
+    padding: 5rem 0;
+
+    &__intro {
+      gap: 1.5rem;
+      width: calc(100% - 1.5rem);
+      margin-bottom: 1.25rem;
+    }
 
     &__title {
+      max-width: none;
       font-size: 2rem;
-      line-height: 1.16;
+      line-height: normal;
       letter-spacing: -0.03rem;
     }
 
+    &__text {
+      max-width: none;
+      font-size: 1.125rem;
+    }
+
     &__viewport {
-      height: 24rem;
+      height: 39.625rem;
+      margin-inline: 0.75rem;
     }
 
     &__slide {
-      flex-basis: 78vw;
+      flex-basis: 100%;
     }
 
     &__name {
       top: auto;
-      bottom: 1.25rem;
-      left: 1rem;
+      bottom: 2.5rem;
+      left: 1.25rem;
+      font-size: 1.125rem;
     }
 
     &__quote {
       top: auto;
-      bottom: 4.5rem;
-      max-width: 70%;
+      bottom: 6.75rem;
+      width: min(19.1875rem, 82%);
+      padding: 0.75rem 0.85rem;
+      font-size: 0.875rem;
       white-space: normal;
       text-align: center;
     }
 
     &__mark {
-      top: 1rem;
-      right: 1rem;
-      width: 2.75rem;
-      height: auto;
+      display: none;
     }
 
     &__arrow {
-      width: 3rem;
-      height: 2.75rem;
+      width: 4.6283rem;
+      height: 4.1875rem;
+
+      &--prev {
+        left: 0.3125rem;
+      }
+
+      &--next {
+        right: 0.3125rem;
+      }
 
       img {
-        width: 1.25rem;
-        height: 1.25rem;
+        width: 2.4243rem;
+        height: 2.4243rem;
       }
     }
   }

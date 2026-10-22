@@ -66,27 +66,44 @@
 
 @include media("<=1023px") {
   .smile {
-    padding: 3.5rem 0;
+    padding: 5rem 0;
 
     &__container {
       flex-direction: column;
-      gap: 2rem;
+      gap: 1.25rem;
+      width: calc(100% - 1.5rem);
     }
 
     &__copy {
       min-height: 0;
-      gap: 1.75rem;
+      gap: 1.5rem;
     }
 
     &__title {
+      max-width: none;
       font-size: 2rem;
-      line-height: 1.16;
+      line-height: normal;
       letter-spacing: -0.03rem;
+    }
+
+    &__footer {
+      gap: 1.5rem;
+    }
+
+    &__text {
+      max-width: none;
+      font-size: 1.125rem;
     }
 
     &__photo {
       width: 100%;
-      height: 22rem;
+      height: 39.625rem;
+    }
+
+    .btn {
+      height: 2.8125rem;
+      padding: 0.625rem 1.125rem;
+      font-size: 1.125rem;
     }
   }
 }
